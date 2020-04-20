@@ -40,7 +40,7 @@ constructor(props){
             <div className="film-site">
                 <h1 className="header">Upcoming Film Releases for UK.</h1>
                 <FilmList films={this.state.films}/>
-                <a href='https://www.imdb.com/calendar/?region=gb'>Click here for new releases</a>
+                <a className='new-release' href='https://www.imdb.com/calendar/?region=gb'>Click here for new releases</a>
             </div>
         );
     }
